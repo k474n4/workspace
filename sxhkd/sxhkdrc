@@ -10,8 +10,12 @@ super + Return
 super + d
         rofi -show run
 
-super + f
+super + shift + f
         firefox
+	
+super + shift + c
+        chromium-browser
+	
 
 
 # make sxhkd reload its configuration files:
